@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Shout It!</title>
-  <link rel="stylesheet" href="css/style" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
   <div id="container">
@@ -23,10 +23,9 @@
       <form method="post" action="process.php">
         <input type="text" name="user" placeholder="Enter you Name" />
         <input type="text" name="message" placeholder="You Massage" />
-        <br />
-        <br />
         <input class="shout-btn"  type="submit" name="submit" value="Shout it out" />
-
-
-</body>
+      </form>
+    </div>
+    </div>
+  </body>
 </html>
